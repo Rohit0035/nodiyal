@@ -72,33 +72,33 @@ const NavbarThree = () => {
                 <Link to='/'>Home</Link>
               </li>
               <li>
-                <Link to='/about'>About Us</Link>
+                <Link to='/'>About Us</Link>
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Software Services</a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/ux-service'>Custom Software Developement
+                    <Link to='/'>Custom Software Developement
                     </Link>
                   </li>
                   <li>
-                    <Link to='/web-service'>Web Application Development
+                    <Link to='/'>Web Application Development
                     </Link>
                   </li>
                   <li>
-                    <Link to='/app-service'>AI, Data & Analystics
+                    <Link to='/'>AI, Data & Analystics
                     </Link>
                   </li>
                   <li>
-                    <Link to='/cyber-service'>Cloud Consulting
+                    <Link to='/'>Cloud Consulting
                     </Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'>Quality Assurance
+                    <Link to='/'>Quality Assurance
                     </Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'>System Integration
+                    <Link to='/'>System Integration
                     </Link>
                   </li>
                 </ul>
@@ -109,27 +109,27 @@ const NavbarThree = () => {
                 </a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/ux-service'>Product Design & Development
+                    <Link to='/'>Product Design & Development
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/web-service'>Manufacturing & Prototyping
+                    <Link to='/'>Manufacturing & Prototyping
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/app-service'>CAD/CAM Services
+                    <Link to='/'>CAD/CAM Services
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/cyber-service'>Testing & Quality Assurance
+                    <Link to='/'>Testing & Quality Assurance
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'>Maintenance & Troubleshootin
+                    <Link to='/'>Maintenance & Troubleshootin
 
                     </Link>
                   </li>
@@ -142,19 +142,19 @@ const NavbarThree = () => {
                 </a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/ux-service'>Architectural Design</Link>
+                    <Link to='/'>Architectural Design</Link>
                   </li>
                   <li>
-                    <Link to='/web-service'>Structural Design</Link>
+                    <Link to='/'>Structural Design</Link>
                   </li>
                   <li>
-                    <Link to='/app-service'>Urban Planning</Link>
+                    <Link to='/'>Urban Planning</Link>
                   </li>
                   <li>
-                    <Link to='/cyber-service'>Landscape Architecture</Link>
+                    <Link to='/'>Landscape Architecture</Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'>BIM (Building Information Modeling)</Link>
+                    <Link to='/'>BIM (Building Information Modeling)</Link>
                   </li>
                 </ul>
               </li>
@@ -171,7 +171,7 @@ const NavbarThree = () => {
               <span>Need help?</span>
               <h5>(91) 7067994744, 7470391093</h5>
             </a> */}
-            <Link className='btn btn-border-base' to='/contact'>
+            <Link className='btn btn-border-base' to='/'>
               Contact Us  <FaPlus />
             </Link>
           </div>

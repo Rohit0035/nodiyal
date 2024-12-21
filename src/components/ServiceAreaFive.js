@@ -27,7 +27,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/ux-service'>Custom Software Developement</Link>
+                    <Link to='/'>Custom Software Developement</Link>
                   </h5>
                   <p className='mb-0'>
                      NODIYAL, we specialize in crafting exceptional UI and UX
@@ -44,7 +44,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/web-service'>Web Application Development</Link>
+                    <Link to='/'>Web Application Development</Link>
                   </h5>
                   <p className='mb-0'>
                     NODIYAL offers premier website development services, 
@@ -61,7 +61,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/app-service'>AI, Data & Analystics</Link>
+                    <Link to='/'>AI, Data & Analystics</Link>
                   </h5>
                   <p className='mb-0'>
                     NODIYAL specializes in developing cutting-edge 
@@ -85,7 +85,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/cyber-service'>Cloud Consulting</Link>
+                    <Link to='/'>Cloud Consulting</Link>
                   </h5>
                   <p className='mb-0'>
                     n today's digital age, safeguarding your business from cyber
@@ -102,7 +102,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/digita-service'>Quality Assurance</Link>
+                    <Link to='/'>Quality Assurance</Link>
                   </h5>
                   <p className='mb-0'>
                     At NODIYAL, we're dedicated to catapulting your digital 
@@ -119,7 +119,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/solution-service'>System Integration</Link>
+                    <Link to='/'>System Integration</Link>
                   </h5>
                   <p className='mb-0'>
                     If you're seeking IT company software solution services, 

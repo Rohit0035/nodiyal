@@ -43,22 +43,22 @@ const FooterOne = () => {
                   </p>
                   <ul className='social-media'>
                     <li>
-                      <a href='https://www.facebook.com/share/EttKVKC1FpbzVYSE/?mibextid=qi2'>
+                      <a href='#'>
                         <FaFacebookF />
                       </a>
                     </li>
                     <li>
-                      <a href='https://twitter.com/i/flow/login?redirect_after_login=%2Fclouebytes'>
+                      <a href='#'>
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href='https://www.instagram.com/clouebytes/?igsh=MWQzZ25weDhucnozMA%3D%3D'>
+                      <a href='#'>
                         <FaInstagram />
                       </a>
                     </li>
                     <li>
-                      <a href='https://www.linkedin.com/company/clouebytes/'>
+                      <a href='#'>
                         <FaLinkedinIn />
                       </a>
                     </li>
@@ -71,42 +71,42 @@ const FooterOne = () => {
                 <h4 className='widget-title'>Our Service</h4>
                 <ul>
                   <li>
-                    <Link to='/ux-service'> <FaArrowRight />Custom Software Developement
+                    <Link to='/'> <FaArrowRight />Custom Software Developement
                     </Link>
                   </li>
                   <li>
-                    <Link to='/web-service'>  <FaArrowRight />Web Application Development
+                    <Link to='/'>  <FaArrowRight />Web Application Development
                     </Link>
                   </li>
                   <li>
-                    <Link to='/app-service'>  <FaArrowRight />AI, Data & Analystics
+                    <Link to='/'>  <FaArrowRight />AI, Data & Analystics
                     </Link>
                   </li>
                   <li>
-                    <Link to='/cyber-service'>  <FaArrowRight />Cloud Consulting
+                    <Link to='/'>  <FaArrowRight />Cloud Consulting
                     </Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'>  <FaArrowRight />Quality Assurance
+                    <Link to='/'>  <FaArrowRight />Quality Assurance
                     </Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'>  <FaArrowRight />System Integration
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to='/digita-service'>  <FaArrowRight />Home
+                    <Link to='/'>  <FaArrowRight />System Integration
                     </Link>
                   </li>
 
                   <li>
-                    <Link to='/digita-service'>  <FaArrowRight />About Us
+                    <Link to='/'>  <FaArrowRight />Home
                     </Link>
                   </li>
 
                   <li>
-                    <Link to='/digita-service'>  <FaArrowRight />Contact Us
+                    <Link to='/'>  <FaArrowRight />About Us
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to='/'>  <FaArrowRight />Contact Us
                     </Link>
                   </li>
 
@@ -118,45 +118,45 @@ const FooterOne = () => {
                 <h4 className='widget-title'>Useful Links</h4>
                 <ul>
                   <li>
-                    <Link to='/ux-service'>  <FaArrowRight /> Product Design & Development
+                    <Link to='/'>  <FaArrowRight /> Product Design & Development
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/web-service'>  <FaArrowRight /> Manufacturing & Prototyping
+                    <Link to='/'>  <FaArrowRight /> Manufacturing & Prototyping
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/app-service'>  <FaArrowRight /> CAD/CAM Services
+                    <Link to='/'>  <FaArrowRight /> CAD/CAM Services
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/cyber-service'>  <FaArrowRight /> Testing & Quality Assurance
+                    <Link to='/'>  <FaArrowRight /> Testing & Quality Assurance
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'> <FaArrowRight /> Maintenance & Troubleshootin
+                    <Link to='/'> <FaArrowRight /> Maintenance & Troubleshootin
 
                     </Link>
                   </li>
 
                   <li>
-                    <Link to='/ux-service'> <FaArrowRight /> Architectural Design</Link>
+                    <Link to='/'> <FaArrowRight /> Architectural Design</Link>
                   </li>
                   <li>
-                    <Link to='/web-service'> <FaArrowRight /> Structural Design</Link>
+                    <Link to='/'> <FaArrowRight /> Structural Design</Link>
                   </li>
                   <li>
-                    <Link to='/app-service'> <FaArrowRight /> Urban Planning</Link>
+                    <Link to='/'> <FaArrowRight /> Urban Planning</Link>
                   </li>
                   <li>
-                    <Link to='/cyber-service'><FaArrowRight /> Landscape Architecture</Link>
+                    <Link to='/'><FaArrowRight /> Landscape Architecture</Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'><FaArrowRight /> BIM (Building Information Modeling)</Link>
+                    <Link to='/'><FaArrowRight /> BIM (Building Information Modeling)</Link>
                   </li>
                 </ul>
               </div>
@@ -225,22 +225,22 @@ const FooterOne = () => {
       <div className="socialicon">
         <ul className=''>
           <li>
-            <a href='https://www.facebook.com/share/EttKVKC1FpbzVYSE/?mibextid=qi2'>
+            <a href='#'>
               <FaFacebookF />
             </a>
           </li>
           <li>
-            <a href='https://twitter.com/i/flow/login?redirect_after_login=%2Fclouebytes'>
+            <a href='#'>
               <FaTwitter />
             </a>
           </li>
           <li>
-            <a href='https://www.instagram.com/clouebytes/?igsh=MWQzZ25weDhucnozMA%3D%3D'>
+            <a href='#'>
               <FaInstagram />
             </a>
           </li>
           <li>
-            <a href='https://www.linkedin.com/company/clouebytes/'>
+            <a href='#'>
               <FaLinkedinIn />
             </a>
           </li>
