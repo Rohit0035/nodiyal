@@ -2,105 +2,90 @@ import React from "react";
 import FooterOne from "../../components/FooterOne";
 import NavbarThree from "../../components/NavbarThree";
 import {
-    FaArrowRight,
-  } from "react-icons/fa";
-  import { Link } from "react-router-dom";
+  FaArrowRight,
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
 import BreadcrumbService from "../../components/BreadcrumbService";
+import WorkProcessOne from "../../components/WorkProcessOne";
 
 const DigitalService = () => {
   return (
     <>
-      <NavbarThree/>
+      <NavbarThree />
 
       {/* Navigation Bar */}
-      <BreadcrumbService title={"Digital Marketing"} />
+      <BreadcrumbService title={"AI, Data & Analystics"} />
 
-      <div className='service-area pd-top-120 pd-bottom-90'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-4 col-12'>
-              <div className='td-sidebar service-sidebar'>
-                <div className='widget widget_catagory'>
-                  <h5 className='widget-title'>
-                    <FaArrowRight /> All Service lists
-                  </h5>
-                  <ul className='catagory-items'>
-                    <li>
-                      <Link to='/ux-service'> UI/UX Design </Link>
-                    </li>
-                    <li>
-                      <Link to='/app-service'> App Development </Link>
-                    </li>
-                    <li>
-                      <Link to='/web-service'> Web Department </Link>
-                    </li>
-                    <li>
-                      <Link to='/cyber-service'> Cyber Security </Link>
-                    </li>
-                    <li>
-                      <Link to='/digita-service'> Digital Marketing </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className='widget widget_author text-center'>
-                  <div className='thumb'>
-                    <img src='assets/img/service/digital1.jpeg' alt='img' />
-                  </div>
-                </div>
-              </div>
+      <section className="pt-5 pb-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <h4>Unlock the Power of AI and Data to Transform Your Business</h4>
+              <p>
+                At NODIYAL, we empower businesses with cutting-edge AI and data analytics
+                solutions to uncover insights, optimize operations, and drive smarter decision-making.
+                Our expertise in AI, machine learning, and big data ensures your organization stays
+                ahead in an increasingly data-driven world.
+              </p>
+              <p>
+                From predictive analytics to real-time data processing, our tailored solutions enable
+                businesses to transform raw data into actionable strategies that fuel growth and innovation.
+              </p>
             </div>
-            <div className='col-lg-8'>
-              <div className='blog-details-page-content'>
-                <div className='single-blog-inner mb-0'>
-                  <div className='thumb'>
-                    <img src='assets/img/service/ser-digital.jpg' alt='img' />
+            <div className="col-md-6">
+              <img src='assets/img/service/ai.jpg' alt='img' className="rounded" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+               <img src="assets/img/service/ai-2.jpg" alt=""  className="rounded" width="100%"/>
+            </div>
+            <div className="col-md-8">
+              <h4>Why AI and Data Analytics Matter?</h4>
+              <p className="mb-3">
+                Data is the cornerstone of modern business. When combined with artificial
+                intelligence, it becomes a powerful tool for
+              </p>
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="shadow p-3 mb-3 bg-success">
+                    <h5 className="text-white">Enhanced Decision</h5>
+                    <p className="text-white">AI-driven insights provide actionable data, enabling faster and more informed decisions.</p>
                   </div>
-                  <div className='details'>
-                    <h4>
-                      Transform Your Brand Story: Elevate with Our Dynamic Digital Strategies
-                    </h4>
-                    <p>
-                      At CloudBytes, we're dedicated to catapulting your digital presence to new heights. With our cutting-edge digital marketing strategies, we empower businesses of all sizes to thrive in the ever-evolving online landscape. Our tailored solutions are designed to maximize your reach, boost your brand visibility, and drive tangible results. Explore our comprehensive range of services below:
-                    </p>
-                    <h6> Search Engine Optimization (SEO): </h6>
-                    <p>
-                      Gain a competitive edge and rank higher on search engine results pages (SERPs) with our strategic SEO techniques. From keyword research to on-page optimization, we'll optimize your website to attract organic traffic and enhance your online visibility.
-                    </p>
-                    <h6> Pay-Per-Click (PPC) Advertising: </h6>
-                    <p>
-                      Unlock the power of targeted advertising with our PPC campaigns. Whether it's Google Ads, Bing Ads, or social media advertising, we'll create custom campaigns to drive qualified leads and maximize your ROI.
-                    </p>
-                    <h6> Social Media Marketing (SMM): </h6>
-                    <p>
-                      Engage and connect with your audience on social media platforms. Our SMM experts will develop compelling content, manage your social media accounts, and leverage analytics to foster meaningful relationships with your customers.
-                    </p>
-                    <h6> Content Marketing: </h6>
-                    <p>
-                      Fuel your digital growth with high-quality, relevant content. From blog posts to infographics, our content marketing strategies are designed to captivate your audience, drive traffic, and establish your brand as an industry authority.
-                    </p>
-                    <h6>  Email Marketing: </h6>
-                    <p>
-                      Harness the power of personalized communication with targeted email campaigns. Our email marketing solutions help you nurture leads, strengthen customer relationships, and drive conversions with tailored content and automation.
-                    </p>
-                    <h6> Analytics and Reporting: </h6>
-                    <p>
-                      Measure the impact of your digital marketing efforts with comprehensive analytics and reporting. We provide actionable insights and data-driven recommendations to continuously optimize your campaigns and achieve your business goals.
-                    </p>
-                    <p>
-                      Partner with CloudBytes and let us be your trusted ally in navigating the digital landscape. Contact us today to discuss how we can elevate your online presence and propel your business forward.
-                    </p>
-                    <p>
-                      By sending a message
-                    </p>
+                </div>
+                <div className="col-md-6">
+                  <div className="shadow p-3 mb-3">
+                    <h5>Operational Efficiency</h5>
+                    <p>Automate repetitive tasks and optimize workflows to save time and resources.</p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="shadow p-3 mb-3">
+                    <h5>Customer Insights</h5>
+                    <p>Gain a deeper understanding of your customers' behaviors, preferences, and needs.</p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="shadow p-3 mb-3 bg-primary">
+                    <h5 className="text-white">Predictive Capabilities</h5>
+                    <p className="text-white">Forecast trends and outcomes to make proactive decisions,  product/service offerings</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-    
+
+
+      <WorkProcessOne />
 
       {/* Footer One */}
       <FooterOne />

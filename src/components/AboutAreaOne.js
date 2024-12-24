@@ -48,7 +48,7 @@ const AboutAreaOne = () => {
                   It Is A Critical Component Of <span>Modern</span> Businesses
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                    At CloueBytes, we're your reliable ally navigating the dynamic realm of technology. 
+                    At NODIYAL, we're your reliable ally navigating the dynamic realm of technology. 
                     Committed to excellence, we specialize in delivering advanced IT services and 
                     consulting solutions to empower businesses worldwide.
                 </p>
@@ -64,7 +64,7 @@ const AboutAreaOne = () => {
                       <div className='details'>
                         <h5>Our Expertise</h5>
                         <p>
-                            At CloueBytes, we're your reliable ally navigating the dynamic realm of technology. 
+                            At NODIYAL, we're your reliable ally navigating the dynamic realm of technology. 
                             Committed to excellence, advanced IT servicese.
                         </p>
                       </div>

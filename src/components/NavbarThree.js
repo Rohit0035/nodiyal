@@ -72,44 +72,53 @@ const NavbarThree = () => {
                 <Link to='/'>Home</Link>
               </li>
               <li>
-                <Link to='/'>About Us</Link>
+                <Link to='/about'>About Us</Link>
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Software Services</a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/'>Custom Software Developement
+                    <Link to='/custom-development'>Custom Software Developement
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>Web Application Development
+                    <Link to='/web-service'>Web Application Development
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>AI, Data & Analystics
+                    <Link to='/digita-service'>AI, Data & Analystics
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>Cloud Consulting
+                    <Link to='/cloud-service'>Cloud Consulting
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>Quality Assurance
+                    <Link to='/quality-assurance'>Quality Assurance
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>System Integration
+                    <Link to='/system-integration'>System Integration
                     </Link>
                   </li>
                 </ul>
               </li>
+
+               {/* <Route exact path='/ux-service' element={<UxService />} />
+        <Route exact path='/web-service' element={<WebServices />} />
+        <Route exact path='/app-service' element={<AppServices />} />
+        <Route exact path='/cyber-service' element={<CyberService />} />
+        <Route exact path='/digita-service' element={<DigitalService />} />
+        <Route exact path='/solution-service' element={<SolutionsServices />} />
+        <Route exact path='/career' element={<CareerAreaOne />} />
+        <Route exact path='/our-client' element={<UxService />} /> */}
 
               <li className='menu-item-has-children'>
                 <a href='#'>Mechnical Engineering
                 </a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/'>Product Design & Development
+                    <Link to='/product-design'>Product Design & Development
 
                     </Link>
                   </li>

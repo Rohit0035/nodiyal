@@ -1,4 +1,5 @@
 import React from "react";
+import SolutionsServices from "../pages/service/SolutionsServices";
 
 const WorkProcessOne = () => {
   return (
@@ -85,6 +86,10 @@ const WorkProcessOne = () => {
       {/* ==================== Work Process One end ====================*/}
 
 
+
+
+     <SolutionsServices/>
+
       <div className='work-process-area pd-top-60 pd-bottom-60'>
         <div className='container'>
           <div className='section-title text-center'>
@@ -95,7 +100,7 @@ const WorkProcessOne = () => {
           </div>
           <div className='row'>
             <div className='col-xl-3 col-md-6'>
-              <div className='single-work-process-inner'>
+              <div className='single-work-process-inner bg-main'>
                 <div className='details'>
                   <h5 className='mb-3'>Software Research</h5>
                   <p className='content'>

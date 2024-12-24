@@ -17,6 +17,10 @@ import CyberService from "./pages/service/CyberService";
 import DigitalService from "./pages/service/DigitalService";
 import SolutionsServices from "./pages/service/SolutionsServices";
 import CareerAreaOne from "./components/CareerAreaOne";
+import CustomDevelopment from "./pages/service/CustomDevelopment";
+import QualityAssurance from "./pages/service/QualityAssurance";
+import SystemIntegration from "./pages/service/SystemIntegration";
+import ProductDesign from "./pages/service/machnical/ProductDesign";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -41,11 +45,21 @@ function App() {
         <Route exact path='/ux-service' element={<UxService />} />
         <Route exact path='/web-service' element={<WebServices />} />
         <Route exact path='/app-service' element={<AppServices />} />
-        <Route exact path='/cyber-service' element={<CyberService />} />
+        <Route exact path='/cloud-service' element={<CyberService />} />
         <Route exact path='/digita-service' element={<DigitalService />} />
         <Route exact path='/solution-service' element={<SolutionsServices />} />
         <Route exact path='/career' element={<CareerAreaOne />} />
         <Route exact path='/our-client' element={<UxService />} />
+
+        <Route exact path='/custom-development' element={<CustomDevelopment />} />
+
+        <Route exact path='/quality-assurance' element={<QualityAssurance />} />
+
+        <Route exact path='/system-integration' element={<SystemIntegration />} />
+
+       {/* mechnical service */}
+       <Route exact path='/product-design' element={<ProductDesign />} />
+
 
       </Routes>
       <ScrollToTop smooth color='#246BFD' />
