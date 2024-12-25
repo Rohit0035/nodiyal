@@ -104,15 +104,6 @@ const NavbarThree = () => {
                 </ul>
               </li>
 
-               {/* <Route exact path='/ux-service' element={<UxService />} />
-        <Route exact path='/web-service' element={<WebServices />} />
-        <Route exact path='/app-service' element={<AppServices />} />
-        <Route exact path='/cyber-service' element={<CyberService />} />
-        <Route exact path='/digita-service' element={<DigitalService />} />
-        <Route exact path='/solution-service' element={<SolutionsServices />} />
-        <Route exact path='/career' element={<CareerAreaOne />} />
-        <Route exact path='/our-client' element={<UxService />} /> */}
-
               <li className='menu-item-has-children'>
                 <a href='#'>Mechnical Engineering
                 </a>
@@ -123,22 +114,22 @@ const NavbarThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>Manufacturing & Prototyping
+                    <Link to='/manufacturing-prototyping'>Manufacturing & Prototyping
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>CAD/CAM Services
+                    <Link to='/cad-cam'>CAD/CAM Services
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>Testing & Quality Assurance
+                    <Link to='/testing-qulity'>Testing & Quality Assurance
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>Maintenance & Troubleshootin
+                    <Link to='/maintenance-troubleshootin'>Maintenance & Troubleshootin
 
                     </Link>
                   </li>
@@ -151,7 +142,7 @@ const NavbarThree = () => {
                 </a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/'>Architectural Design</Link>
+                    <Link to='/architectural-design'>Architectural Design</Link>
                   </li>
                   <li>
                     <Link to='/'>Structural Design</Link>

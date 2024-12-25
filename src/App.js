@@ -21,6 +21,10 @@ import CustomDevelopment from "./pages/service/CustomDevelopment";
 import QualityAssurance from "./pages/service/QualityAssurance";
 import SystemIntegration from "./pages/service/SystemIntegration";
 import ProductDesign from "./pages/service/machnical/ProductDesign";
+import ManufacturingpPrototyping from "./pages/service/machnical/ManufacturingpPrototyping";
+import CadCam from "./pages/service/machnical/CadCam";
+import TestingQuality from "./pages/service/machnical/TestingQuality";
+import ArchitecturalDesign from "./pages/service/civil/ArchitecturalDesign";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -59,6 +63,14 @@ function App() {
 
        {/* mechnical service */}
        <Route exact path='/product-design' element={<ProductDesign />} />
+       <Route exact path='/manufacturing-prototyping' element={<ManufacturingpPrototyping />} />
+       <Route exact path='/cad-cam' element={<CadCam />} />
+       <Route exact path='/testing-qulity' element={<TestingQuality />} />
+       <Route exact path='/maintenance-troubleshootin' element={<ManufacturingpPrototyping />} />
+
+      {/* civil serivice */}
+      <Route exact path='/architectural-design' element={<ArchitecturalDesign />} />
+
 
 
       </Routes>
