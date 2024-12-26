@@ -47,7 +47,11 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Contacts us</h5>
-                  <h6> +91 7067994744, 7470391093</h6>
+                  <h6> 
+                    <a href="tel:0745290343">
+                        074529 0343
+                    </a>
+                    </h6>
                 </div>
               </div>
             </div>
@@ -58,7 +62,11 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5> Email</h5>
-                  <h6>Contact@clouebytes.com </h6>
+                  <h6>
+                     <a href="email:info@nodiyal.com">
+                        info@nodiyal.com 
+                     </a>
+                  </h6>
                 </div>
               </div>
             </div>
@@ -69,7 +77,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Location</h5>
-                  <h6>401/206  sky residency, rani baag main, Khandwa road Indore, Madhya Pradesh</h6>
+                  <h6>3/1 Bounty Close, Tuggerah New South Wales 2259 Australia</h6>
                 </div>
               </div>
             </div>
@@ -80,12 +88,12 @@ const ContactMain = () => {
         <div className='container'>
           <div className='contact-page-inner bg-gray'>
             <div className='section-title mb-4 pb-2'>
-              <h2 className='title'>Request a quote  </h2>
+              <h2 className='title'>Tailored Solutions for Every Project – IT, Mechanical, and Civil Engineering Services by NODIYAL </h2>
               <p className='content mb-0'>
-                For your car we will do everything advice, repairs and
-                maintenance. We are the some preferred choice by many car owners
-                because our experience and knowledge is selfe vident.For your
-                car we will do som everything.
+                  At NODIYAL, we specialize in delivering innovative solutions across Software Services, 
+                  Mechanical Engineering, and Civil Engineering. With our team of industry experts, we 
+                  provide cutting-edge advice, seamless project execution, and reliable support for all 
+                  your business needs.
               </p>
             </div>
             <form ref={form} onSubmit={sendEmail}>
@@ -123,7 +131,18 @@ const ContactMain = () => {
                     />
                   </div>
                 </div>
-                <div className='col-12'>
+                <div className='col-md-12'>
+                  <div className='single-input-inner'>
+                    <input
+                      id='phone'
+                      name='user_phone'
+                      type='number'
+                      placeholder='Your Requirement'
+                      required
+                    />
+                  </div>
+                </div>
+                {/* <div className='col-12'>
                   <div className='single-select-inner'>
                     <select
                       className="single-input-inner"
@@ -138,7 +157,7 @@ const ContactMain = () => {
                       <option>Not Sure </option>
                     </select>
                   </div>
-                </div>
+                </div> */}
                 <div className='col-12 text-center'>
                   <button
                     className='btn btn-base border-radius-5'
@@ -156,9 +175,9 @@ const ContactMain = () => {
       {/* contact list */}
 
       {/* Map  */}
-      <div className='contact-g-map mb-0'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3681.5975676873945!2d75.8777313742902!3d22.668788329439987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s401%2F206%20sky%20residency%2C%20rani%20baag%20main%2C%20Khandwa%20road%20Indore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1714909969748!5m2!1sen!2sin" />
-      </div>
+      {/* <div className='contact-g-map mb-0'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.923025501702!2d151.4241299749845!3d-33.32082779088438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b72ce7bd1c394cf%3A0xc86889b3794cf073!2sUnit%203%2F1%20Bounty%20Cl%2C%20Tuggerah%20NSW%202259%2C%20Australia!5e0!3m2!1sen!2sin!4v1735207755686!5m2!1sen!2sin" />
+      </div> */}
 
       {/* ================= Contact Main End =================*/}
     </>

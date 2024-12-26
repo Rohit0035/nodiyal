@@ -37,23 +37,23 @@ const HomeFour = () => {
       <CareerAreaOne />
 
       {/* Project Area One */}
-      <ProjectAreaOne />
+      {/* <ProjectAreaOne /> */}
 
 
       {/* work process */}
       <WorkProcessTwo/>
 
       {/* Testimonial Three */}
-      <TestimonialThree />
+      {/* <TestimonialThree /> */}
 
       {/* Counter Area Four */}
-      <CounterAreaFour />
+      {/* <CounterAreaFour /> */}
 
       {/* Blog Area Four */}
       {/* <BlogAreaFour /> */}
 
       {/* Brand Area One */}
-      <BrandAreaOne />
+      {/* <BrandAreaOne /> */}
 
       {/* Footer one */}
       <FooterOne />

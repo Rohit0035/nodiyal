@@ -25,6 +25,10 @@ import ManufacturingpPrototyping from "./pages/service/machnical/ManufacturingpP
 import CadCam from "./pages/service/machnical/CadCam";
 import TestingQuality from "./pages/service/machnical/TestingQuality";
 import ArchitecturalDesign from "./pages/service/civil/ArchitecturalDesign";
+import StructuralDesign from "./pages/service/civil/StructuralDesign";
+import UrbanPlanning from "./pages/service/civil/UrbanPlanning";
+import LandscapeArchitecture from "./pages/service/civil/LandscapeArchitecture";
+import Bim from "./pages/service/civil/Bim";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -70,6 +74,11 @@ function App() {
 
       {/* civil serivice */}
       <Route exact path='/architectural-design' element={<ArchitecturalDesign />} />
+      <Route exact path='/structural-design' element={<StructuralDesign />} />
+      <Route exact path='/urban-planning' element={<UrbanPlanning />} />
+      <Route exact path='/landscape-architecture' element={<LandscapeArchitecture />} />
+      <Route exact path='/bim' element={<Bim />} />
+
 
 
 

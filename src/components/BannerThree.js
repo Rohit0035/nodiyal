@@ -58,7 +58,7 @@ const BannerThree = () => {
                   data-aos='fade-right'
                   data-aos-delay='400'
                   data-aos-duration='1500'
-                  to='/'
+                  to='/contact'
                 >
                   Contact Us<FaPlus />
                 </Link>

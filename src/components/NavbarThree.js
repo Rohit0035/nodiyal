@@ -145,16 +145,16 @@ const NavbarThree = () => {
                     <Link to='/architectural-design'>Architectural Design</Link>
                   </li>
                   <li>
-                    <Link to='/'>Structural Design</Link>
+                    <Link to='/structural-design'>Structural Design</Link>
                   </li>
                   <li>
-                    <Link to='/'>Urban Planning</Link>
+                    <Link to='/urban-planning'>Urban Planning</Link>
                   </li>
                   <li>
-                    <Link to='/'>Landscape Architecture</Link>
+                    <Link to='/landscape-architecture'>Landscape Architecture</Link>
                   </li>
                   <li>
-                    <Link to='/'>BIM (Building Information Modeling)</Link>
+                    <Link to='/bim'>BIM (Building Information Modeling)</Link>
                   </li>
                 </ul>
               </li>
@@ -171,7 +171,7 @@ const NavbarThree = () => {
               <span>Need help?</span>
               <h5>(91) 7067994744, 7470391093</h5>
             </a> */}
-            <Link className='btn btn-border-base' to='/'>
+            <Link  className='btn btn-border-base' to='/contact'>
               Contact Us  <FaPlus />
             </Link>
           </div>

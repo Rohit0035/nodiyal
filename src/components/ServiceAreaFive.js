@@ -85,12 +85,12 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/'>Cloud Consulting</Link>
+                    <Link to='/'>CAD/CAM Services</Link>
                   </h5>
                   <p className='mb-0'>
-                    n today's digital age, safeguarding your business from cyber
-                     threats is paramount. At NODIYAL, we offer comprehensive 
-                     cyber.
+                      We specialize in offering CAD (Computer-Aided Design) 
+                      and CAM (Computer-Aided Manufacturing) Services to bring your 
+                      mechanical.
                   </p>
                 </div>
               </div>
@@ -102,12 +102,12 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/'>Quality Assurance</Link>
+                    <Link to='/'>Architectural Design</Link>
                   </h5>
                   <p className='mb-0'>
-                    At NODIYAL, we're dedicated to catapulting your digital 
-                    presence to new heights. With our cutting-edge digital
-                    marketing strategies.
+                    At NODIYAL, we specialize in creating innovative and sustainable 
+                    Architectural Design solutions that bring your 
+                    vision to life. 
                   </p>
                 </div>
               </div>
@@ -119,12 +119,12 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/'>System Integration</Link>
+                    <Link to='/'>Manufacturing & Prototyping</Link>
                   </h5>
                   <p className='mb-0'>
-                    If you're seeking IT company software solution services, 
-                    there are a variety of options available depending on your 
-                    specific needs. 
+                    At NODIYAL, we recognize that the long-term performance and 
+                    reliability of your mechanical systems are directly tied to 
+                    Maintenance.
                   </p>
                 </div>
               </div>

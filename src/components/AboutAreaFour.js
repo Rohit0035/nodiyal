@@ -48,6 +48,7 @@ const AboutAreaFour = () => {
                 </p>
                 <Link
                    className="btn btn-border-base mt-0"
+                   to="/about"
                 >
                  Read More<FaPlus />
                 </Link>

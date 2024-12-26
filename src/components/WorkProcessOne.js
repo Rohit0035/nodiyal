@@ -23,7 +23,6 @@ const WorkProcessOne = () => {
                   <p className='process-count'>Work 01</p>
                   <h5 className='mb-3'>Software Research</h5>
                   <p className='content'>
-                   
                     Software research encompasses a wide range of topics, 
                     from developing new algorithms and programming languages 
                     to studying user interfaces and software engineering p
@@ -90,10 +89,9 @@ const WorkProcessOne = () => {
 
      <SolutionsServices/>
 
-      <div className='work-process-area pd-top-60 pd-bottom-60'>
+      {/* <div className='work-process-area pd-top-60 pd-bottom-60'>
         <div className='container'>
           <div className='section-title text-center'>
-            {/* <h6 className='sub-title'>Why  Us</h6> */}
             <h2 className='title'>
             Why <span>Choose</span> Us
             </h2>
@@ -151,7 +149,7 @@ const WorkProcessOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       
     </>
   );

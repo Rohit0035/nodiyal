@@ -24,7 +24,7 @@ const BannerFour = () => {
                       data-aos-delay='100'
                       data-aos-duration='1500'
                     >
-                      WELCOME TO CLOUEBYTES
+                      WELCOME TO NODIYALS
                     </h6>
                     <h2
                       className='title '
@@ -33,7 +33,7 @@ const BannerFour = () => {
                       data-aos-duration='1500'
                     >
                      
-                     Elevate Your Business with  <span>CLOUEBYTES</span>
+                     Elevate Your Business with  <span>NODIYALS</span>
                     </h2>
                     <Link
                       className='mt-3 btn btn-border-base'

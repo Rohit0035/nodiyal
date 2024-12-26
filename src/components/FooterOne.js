@@ -41,7 +41,7 @@ const FooterOne = () => {
                     Mechanical Engineering, and Civil Engineering solutions, driving
                     success for businesses across the globe.
                   </p>
-                  <ul className='social-media'>
+                  {/* <ul className='social-media'>
                     <li>
                       <a href='#'>
                         <FaFacebookF />
@@ -62,7 +62,7 @@ const FooterOne = () => {
                         <FaLinkedinIn />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -71,27 +71,27 @@ const FooterOne = () => {
                 <h4 className='widget-title'>Our Service</h4>
                 <ul>
                   <li>
-                    <Link to='/'> <FaArrowRight />Custom Software Developement
+                    <Link to='/custom-development'> <FaArrowRight />Custom Software Developement
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>  <FaArrowRight />Web Application Development
+                    <Link to='/web-service'>  <FaArrowRight />Web Application Development
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>  <FaArrowRight />AI, Data & Analystics
+                    <Link to='/digita-service'>  <FaArrowRight />AI, Data & Analystics
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>  <FaArrowRight />Cloud Consulting
+                    <Link to='/cloud-service'>  <FaArrowRight />Cloud Consulting
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>  <FaArrowRight />Quality Assurance
+                    <Link to='/quality-assurance'>  <FaArrowRight />Quality Assurance
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>  <FaArrowRight />System Integration
+                    <Link to='/system-integration'>  <FaArrowRight />System Integration
                     </Link>
                   </li>
 
@@ -101,12 +101,12 @@ const FooterOne = () => {
                   </li>
 
                   <li>
-                    <Link to='/'>  <FaArrowRight />About Us
+                    <Link to='/about'>  <FaArrowRight />About Us
                     </Link>
                   </li>
 
                   <li>
-                    <Link to='/'>  <FaArrowRight />Contact Us
+                    <Link to='/contact'>  <FaArrowRight />Contact Us
                     </Link>
                   </li>
 
@@ -118,45 +118,45 @@ const FooterOne = () => {
                 <h4 className='widget-title'>Useful Links</h4>
                 <ul>
                   <li>
-                    <Link to='/'>  <FaArrowRight /> Product Design & Development
+                    <Link to='/product-design'>  <FaArrowRight /> Product Design & Development
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>  <FaArrowRight /> Manufacturing & Prototyping
+                    <Link to='/manufacturing-prototyping'>  <FaArrowRight /> Manufacturing & Prototyping
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>  <FaArrowRight /> CAD/CAM Services
+                    <Link to='/cad-cam'>  <FaArrowRight /> CAD/CAM Services
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'>  <FaArrowRight /> Testing & Quality Assurance
+                    <Link to='/testing-qulity'>  <FaArrowRight /> Testing & Quality Assurance
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/'> <FaArrowRight /> Maintenance & Troubleshootin
+                    <Link to='/maintenance-troubleshootin'> <FaArrowRight /> Maintenance & Troubleshootin
 
                     </Link>
                   </li>
 
                   <li>
-                    <Link to='/'> <FaArrowRight /> Architectural Design</Link>
+                    <Link to='/architectural-design'> <FaArrowRight /> Architectural Design</Link>
                   </li>
                   <li>
-                    <Link to='/'> <FaArrowRight /> Structural Design</Link>
+                    <Link to='/structural-design'> <FaArrowRight /> Structural Design</Link>
                   </li>
                   <li>
-                    <Link to='/'> <FaArrowRight /> Urban Planning</Link>
+                    <Link to='/urban-planning'> <FaArrowRight /> Urban Planning</Link>
                   </li>
                   <li>
-                    <Link to='/'><FaArrowRight /> Landscape Architecture</Link>
+                    <Link to='/landscape-architecture'><FaArrowRight /> Landscape Architecture</Link>
                   </li>
                   <li>
-                    <Link to='/'><FaArrowRight /> BIM (Building Information Modeling)</Link>
+                    <Link to='/bim'><FaArrowRight /> BIM (Building Information Modeling)</Link>
                   </li>
                 </ul>
               </div>
@@ -170,7 +170,10 @@ const FooterOne = () => {
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>
                           <FaPhone size={25} />
-                          <span>(91) 323332333, 22323323</span>
+                          <span>
+                            <a href="tel:074529 0343">
+                              074529 0343
+                            </a></span>
                         </div>
                       </div>
                     </div>
@@ -180,7 +183,7 @@ const FooterOne = () => {
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>
                           <IoMailOpenOutline size={25} />
-                          <span> Contact@info.com </span>
+                          <span> <a href="email:info@nodiyal.com ">info@nodiyal.com </a> </span>
                         </div>
                       </div>
                     </div>
@@ -190,15 +193,39 @@ const FooterOne = () => {
                       <div className='media-body align-self-center'>
                         <div className='post-infopr-0 mb-2'>
                           <div className='post-info mb-2'>
-                            <IoLocationOutline size={25} />
-                            <span> ipsum ipsum </span>
+                            <div className="d-flex">
+                              <IoLocationOutline size={25} />
+                              <p className="mb-0" style={{ color: '#fff', fontSize: '14px' }}>
+                                3/1 Bounty Close, Tuggerah New<br /> South Wales 2259 Australia
+                              </p>
+                            </div>
                           </div>
-                          <p style={{ color: '#fff', fontSize: '14px' }}>
-                            Lorem Lorem
-                          </p>
                         </div>
                       </div>
                     </div>
+                  </li>
+                  <li>
+                  <div className='media'>
+                      <div className='media-body align-self-center'>
+                        <div className='post-infopr-0 mb-2'>
+                          <div className='post-info mb-2'>
+                            <div className="d-flex">
+                               <b className="text-white me-2">ABN:</b>
+                              <p className="mb-0" style={{ color: '#fff', fontSize: '14px' }}>
+                                 <b>40141837489</b> 
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className='media'>
+                      <div className='media-body align-self-center'>
+                        <div className='post-infopr-0 mb-2 text-white'>
+                           
+                        </div>
+                      </div>
+                    </div> */}
                   </li>
                 </ul>
               </div>
@@ -217,12 +244,12 @@ const FooterOne = () => {
       </footer>
 
       <div className="whatsicon">
-        <Link to="https://api.whatsapp.com/send/?phone=1234567890&text&type=phone_number&app_absent=0">
+        <Link to="https://api.whatsapp.com/send/?phone=074529 0343&text&type=phone_number&app_absent=0">
           <FaWhatsapp size={45} />
         </Link>
       </div>
 
-      <div className="socialicon">
+      {/* <div className="socialicon">
         <ul className=''>
           <li>
             <a href='#'>
@@ -245,7 +272,7 @@ const FooterOne = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
       {/* ================== Footer One  end ==================*/}
     </>
   );

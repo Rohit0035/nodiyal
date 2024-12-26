@@ -60,7 +60,7 @@ const UxService = () => {
                       Building A Website Gets Easy Without Coding
                     </h4>
                     <p>
-                      At Clouebytes, we specialize in crafting exceptional UI and UX designs that elevate your digital presence across various channels. Our high-quality designs are tailored to enhance the usability of your online platforms and applications, ensuring a captivating user experience.
+                      At NODIYALs, we specialize in crafting exceptional UI and UX designs that elevate your digital presence across various channels. Our high-quality designs are tailored to enhance the usability of your online platforms and applications, ensuring a captivating user experience.
                     </p>
                     <h6>
                       Crafting Intuitive Interfaces
@@ -70,7 +70,7 @@ const UxService = () => {
                     </p>
                     <h6> Visually Stunning Designs </h6>
                     <p>
-                      Our team at Clouebytes is dedicated to delivering visually appealing UI/UX designs using the latest tools and technologies, ensuring interactive solutions that captivate users.
+                      Our team at NODIYALs is dedicated to delivering visually appealing UI/UX designs using the latest tools and technologies, ensuring interactive solutions that captivate users.
                     </p>
                     <h6> Our Expertise </h6>
                     <p>
@@ -78,7 +78,7 @@ const UxService = () => {
                     </p>
                     <h6> Why UI/UX Design Matters for Mobile Apps </h6>
                     <p>
-                      The user interface of a mobile application is crucial for making a lasting impression. With the expertise of a seasoned Mobile Apps UI/UX Design Company like Clouebytes, you can ensure your app stands out with a unique and creative interface, enhancing its presence in the market.
+                      The user interface of a mobile application is crucial for making a lasting impression. With the expertise of a seasoned Mobile Apps UI/UX Design Company like NODIYALs, you can ensure your app stands out with a unique and creative interface, enhancing its presence in the market.
                     </p>
                     <h6> Our Approach </h6>
                     <p>
