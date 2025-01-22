@@ -145,11 +145,11 @@ const CareerAreaOne = () => {
                     <div className='col-lg-7'>
                       <h3 className='mb-3'>The software development</h3>
                       <p className='mb-3'>
-                        A software company is a business that designs, develops,
+                        We are a software company that designs, develops,
                         and sells software products to individuals and
-                        organizations. These companies use a variety of
+                        organizations. Nodiyal uses a  variety of
                         programming languages and technologies to create custom
-                        software solutions for a wide range of industries
+                        software solutions for a wide range of industries.
                       </p>
                       {/* <div className='row'>
                         <div className='col-md-6'>

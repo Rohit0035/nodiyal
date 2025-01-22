@@ -40,7 +40,7 @@ const BannerThree = () => {
                         // Same substring at the start will only be typed out once, initially
                         'Software Services',
                         1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'Mechnical Engineering',
+                        'Mechanical  Engineering',
                         1000,
                         'Civil Engineering',
                         1000,

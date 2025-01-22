@@ -27,7 +27,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/'>Custom Software Developement</Link>
+                    <Link to='/'>Custom Software Development</Link>
                   </h5>
                   <p className='mb-0'>
                      NODIYAL, we specialize in crafting exceptional UI and UX

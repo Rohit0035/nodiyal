@@ -135,8 +135,8 @@ const ContactMain = () => {
                   <div className='single-input-inner'>
                     <input
                       id='phone'
-                      name='user_phone'
-                      type='number'
+                      name='user_msg'
+                      type='text'
                       placeholder='Your Requirement'
                       required
                     />

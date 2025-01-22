@@ -128,7 +128,7 @@ const NavbarThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'>Maintenance & Troubleshootin
+                    <Link to='/digita-service'>Maintenance & Troubleshooting
 
                     </Link>
                   </li>

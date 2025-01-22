@@ -54,7 +54,7 @@ function App() {
         <Route exact path='/web-service' element={<WebServices />} />
         <Route exact path='/app-service' element={<AppServices />} />
         <Route exact path='/cloud-service' element={<CyberService />} />
-        <Route exact path='/digita-service' element={<DigitalService />} />
+        <Route exact path='/digital-service' element={<DigitalService />} />
         <Route exact path='/solution-service' element={<SolutionsServices />} />
         <Route exact path='/career' element={<CareerAreaOne />} />
         <Route exact path='/our-client' element={<UxService />} />
@@ -69,8 +69,8 @@ function App() {
        <Route exact path='/product-design' element={<ProductDesign />} />
        <Route exact path='/manufacturing-prototyping' element={<ManufacturingpPrototyping />} />
        <Route exact path='/cad-cam' element={<CadCam />} />
-       <Route exact path='/testing-qulity' element={<TestingQuality />} />
-       <Route exact path='/maintenance-troubleshootin' element={<ManufacturingpPrototyping />} />
+       <Route exact path='/testing-quality' element={<TestingQuality />} />
+       <Route exact path='/maintenance-troubleshooting' element={<ManufacturingpPrototyping />} />
 
       {/* civil serivice */}
       <Route exact path='/architectural-design' element={<ArchitecturalDesign />} />

@@ -78,7 +78,7 @@ const NavbarThree = () => {
                 <a href='#'>Software Services</a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/custom-development'>Custom Software Developement
+                    <Link to='/custom-development'>Custom Software Development
                     </Link>
                   </li>
                   <li>
@@ -86,7 +86,7 @@ const NavbarThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to='/digita-service'>AI, Data & Analystics
+                    <Link to='/digital-service'>AI, Data & Analystics
                     </Link>
                   </li>
                   <li>
@@ -105,7 +105,7 @@ const NavbarThree = () => {
               </li>
 
               <li className='menu-item-has-children'>
-                <a href='#'>Mechnical Engineering
+                <a href='#'>Mechanical Engineering
                 </a>
                 <ul className='sub-menu'>
                   <li>
@@ -124,12 +124,12 @@ const NavbarThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to='/testing-qulity'>Testing & Quality Assurance
+                    <Link to='/testing-quality'>Testing & Quality Assurance
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/maintenance-troubleshootin'>Maintenance & Troubleshootin
+                    <Link to='/maintenance-troubleshooting'>Maintenance & Troubleshooting
 
                     </Link>
                   </li>

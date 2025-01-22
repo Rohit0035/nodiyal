@@ -65,7 +65,7 @@ const AboutAreaOne = () => {
                         <h5>Our Expertise</h5>
                         <p>
                             At NODIYAL, we're your reliable ally navigating the dynamic realm of technology. 
-                            Committed to excellence, advanced IT servicese.
+                            Committed to excellence, advanced IT services.
                         </p>
                       </div>
                     </div>

@@ -15,7 +15,7 @@ const ManufacturingpPrototyping = () => {
             <NavbarThree />
 
             {/* Navigation Bar */}
-            <BreadcrumbService title={"Maintenance & Troubleshootin"} />
+            <BreadcrumbService title={"Maintenance & Troubleshooting"} />
 
 
             <section className="pt-5 pb-5">
@@ -23,10 +23,10 @@ const ManufacturingpPrototyping = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="shadow p-4">
-                                <h4>Maximizing Efficiency: Comprehensive Maintenance & Troubleshooting for Mechanical Systems</h4>
+                                <h4>Maximizing Efficiency: Comprehensive Maintenance & Troubleshootingg for Mechanical Systems</h4>
                                 <p>
                                     At NODIYAL, we recognize that the long-term performance and reliability of your mechanical 
-                                    systems are directly tied to effective Maintenance & Troubleshooting. Our specialized services 
+                                    systems are directly tied to effective Maintenance & Troubleshootingg. Our specialized services 
                                     are designed to enhance the lifespan of your equipment, identify and resolve any issues before 
                                     they lead to costly failures, and maintain smooth operation throughout its service life. We 
                                     employ a blend of preventive and corrective maintenance strategies to ensure your mechanical 
@@ -43,7 +43,7 @@ const ManufacturingpPrototyping = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="mb-2">
-                                <h4>What is Maintenance & Troubleshooting?</h4>
+                                <h4>What is Maintenance & Troubleshootingg?</h4>
                                 <p>
                                     Maintenance involves the regular servicing of mechanical systems and components 
                                     to ensure they are functioning optimally and to prevent unexpected breakdowns. 
@@ -72,7 +72,7 @@ const ManufacturingpPrototyping = () => {
                 <div className="container">
                     <div className="section-title text-center">
                         <h2 className="title">
-                            Our  <span> Process for Maintenance & Troubleshooting </span>  Services
+                            Our  <span> Process for Maintenance & Troubleshootingg </span>  Services
                         </h2>
                     </div>
                     <div className="row">

@@ -10,7 +10,7 @@ const WorkProcessOne = () => {
           <div className='section-title text-center'>
             <h6 className='sub-title'>OUR SIMPLE PROCESS</h6>
             <h2 className='title'>
-              World <span>Best Step</span> Our It Process
+              World <span>Best Step</span> Our IT Process
             </h2>
           </div>
           <div className='row'>
@@ -54,7 +54,7 @@ const WorkProcessOne = () => {
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 03</p>
-                  <h5 className='mb-3'>Develope Software</h5>
+                  <h5 className='mb-3'>Develop Software</h5>
                   <p className='content'>
                      Developing software involves several stages, including 
                      planning, design, implementation, testing, and deployment
@@ -70,7 +70,7 @@ const WorkProcessOne = () => {
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 04</p>
-                  <h5 className='mb-3'>Shop software</h5>
+                  <h5 className='mb-3'>Shop Software</h5>
                   <p className='content'>
                       A shop software typically refers to a system designed to 
                       manage various aspects of retail operations, including 

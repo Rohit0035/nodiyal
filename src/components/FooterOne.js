@@ -11,6 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const FooterOne = () => {
 
@@ -36,7 +37,7 @@ const FooterOne = () => {
                   <img src='assets/img/logo.png' alt='img' width="100px" />
                 </div>
                 <div className='details'>
-                  <p>
+                  <p style={{textAlign:'justify'}}>
                     Dedicated to innovation, NODIYAL excels in offering cutting-edge IT,
                     Mechanical Engineering, and Civil Engineering solutions, driving
                     success for businesses across the globe.
@@ -68,10 +69,10 @@ const FooterOne = () => {
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>Our Service</h4>
+                <h4 className='widget-title'>Our Services</h4>
                 <ul>
                   <li>
-                    <Link to='/custom-development'> <FaArrowRight />Custom Software Developement
+                    <Link to='/custom-development'> <FaArrowRight />Custom Software Development
                     </Link>
                   </li>
                   <li>
@@ -133,12 +134,12 @@ const FooterOne = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to='/testing-qulity'>  <FaArrowRight /> Testing & Quality Assurance
+                    <Link to='/testing-quality'>  <FaArrowRight /> Testing & Quality Assurance
 
                     </Link>
                   </li>
                   <li>
-                    <Link to='/maintenance-troubleshootin'> <FaArrowRight /> Maintenance & Troubleshootin
+                    <Link to='/maintenance-troubleshooting'> <FaArrowRight /> Maintenance & Troubleshootingg
 
                     </Link>
                   </li>
@@ -205,6 +206,22 @@ const FooterOne = () => {
                     </div>
                   </li>
                   <li>
+                    <div className='media'>
+                      <div className='media-body align-self-center'>
+                        <div className='post-infopr-0 mb-2'>
+                          <div className='post-info mb-2'>
+                            <div className="d-flex">
+                              <FaArrowAltCircleRight size={25} />
+                              <p className="mb-0" style={{ color: '#fff', fontSize: '14px' }}>
+                                 ABN: 40141837489
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* <li>
                   <div className='media'>
                       <div className='media-body align-self-center'>
                         <div className='post-infopr-0 mb-2'>
@@ -219,14 +236,14 @@ const FooterOne = () => {
                         </div>
                       </div>
                     </div>
-                    {/* <div className='media'>
+                    <div className='media'>
                       <div className='media-body align-self-center'>
                         <div className='post-infopr-0 mb-2 text-white'>
                            
                         </div>
                       </div>
-                    </div> */}
-                  </li>
+                    </div>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -244,7 +261,7 @@ const FooterOne = () => {
       </footer>
 
       <div className="whatsicon">
-        <Link to="https://api.whatsapp.com/send/?phone=074529 0343&text&type=phone_number&app_absent=0">
+        <Link to="https://api.whatsapp.com/send/?phone=401986606&text&type=phone_number&app_absent=0">
           <FaWhatsapp size={45} />
         </Link>
       </div>
