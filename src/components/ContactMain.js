@@ -77,7 +77,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Location</h5>
-                  <h6>3/1 Bounty Close, Tuggerah New South Wales 2259 Australia</h6>
+                  <h6>Level 1/ 239 king st, Newcastle NSW 2300</h6>
                 </div>
               </div>
             </div>

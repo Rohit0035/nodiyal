@@ -197,7 +197,7 @@ const FooterOne = () => {
                             <div className="d-flex">
                               <IoLocationOutline size={25} />
                               <p className="mb-0" style={{ color: '#fff', fontSize: '14px' }}>
-                                3/1 Bounty Close, Tuggerah New<br /> South Wales 2259 Australia
+                                Level 1/ 239 king st, Newcastle NSW 2300
                               </p>
                             </div>
                           </div>
