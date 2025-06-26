@@ -172,8 +172,8 @@ const FooterOne = () => {
                         <div className='post-info mb-2'>
                           <FaPhone size={25} />
                           <span>
-                            <a href="tel:074529 0343">
-                              074529 0343
+                            <a href="tel:+61466938821">
+                             +61466938821
                             </a></span>
                         </div>
                       </div>

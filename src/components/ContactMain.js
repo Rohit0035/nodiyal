@@ -48,8 +48,8 @@ const ContactMain = () => {
                 <div className='media-body'>
                   <h5>Contacts us</h5>
                   <h6> 
-                    <a href="tel:0745290343">
-                        074529 0343
+                    <a href="tel:+61466938821">
+                       +61 466 938 821
                     </a>
                     </h6>
                 </div>
